@@ -110,8 +110,8 @@ client.on("message", (message) => {
                 userid = client.users.get(msg[1].replace('<@', '').slice(0, -1));
             }
             //console.log(msg);
-            console.log(msg[1].replace('<@!', '').slice(0, -1));
-            console.log(userid);
+            //console.log(msg[1].replace('<@!', '').slice(0, -1));
+            //console.log(userid);
             if (userid.id == 339342096366305283) {
                 message.channel.send("*bash " + message.author.toString() + "*");
             }
@@ -148,8 +148,8 @@ client.on("message", (message) => {
                 userid = client.users.get(msg[1].replace('<@', '').slice(0, -1));
             }
             //console.log(msg);
-            console.log(msg[1].replace('<@!', '').slice(0, -1));
-            console.log(userid);
+            //console.log(msg[1].replace('<@!', '').slice(0, -1));
+            //console.log(userid);
             if (userid.id == 339342096366305283) {
                 message.channel.send("*đá " + message.author.toString() + "*");
             }
@@ -184,8 +184,8 @@ client.on("message", (message) => {
                 userid = client.users.get(msg[1].replace('<@', '').slice(0, -1));
             }
             //console.log(msg);
-            console.log(msg[1].replace('<@!', '').slice(0, -1));
-            console.log(userid);
+            //console.log(msg[1].replace('<@!', '').slice(0, -1));
+            //console.log(userid);
             if (userid.id == 339342096366305283) {
                 if (message.author.toString() == "<@339035003243593740>") {
                     message.channel.send("*đỏ mặt~* :heart:");
@@ -234,8 +234,8 @@ client.on("message", (message) => {
                 userid = client.users.get(msg[1].replace('<@', '').slice(0, -1));
             }
             //console.log(msg);
-            console.log(msg[1].replace('<@!', '').slice(0, -1));
-            console.log(userid);
+            //console.log(msg[1].replace('<@!', '').slice(0, -1));
+            //console.log(userid);
             if (userid.id == 339342096366305283) {
                 message.channel.send("*Đấm " + message.author.toString() + "*");
             }
@@ -258,4 +258,4 @@ client.on("message", (message) => {
     }
 });
 
-client.login("MzM5MzQyMDk2MzY2MzA1Mjgz.DpTk8g.sopGDWLrAypzTAUwE1rfDlxVGGA");
+client.login("");
